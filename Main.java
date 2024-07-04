@@ -10,7 +10,7 @@ public class Main {
 // 1.Write a program that prints the numbers from 1 to 100 such that: If the number is a multiple of 3, you need to print "Fizz" instead of that number.
 
         for (int i = 1; i <= 100; i++){
-                if (i % 15 == 0){
+                if (i % 5 == 0 && i % 3){
                         System.out.println("FizzBuzz");
                 }else if (i % 3 == 0){
                         System.out.println("Fizz");
